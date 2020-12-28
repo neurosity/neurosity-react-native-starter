@@ -1,0 +1,44 @@
+{
+  "name": "Neurosity",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@neurosity/notion": "^5.1.0",
+    "@neurosity/pipes": "^4.3.0",
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/drawer": "^5.11.4",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "observable-hooks": "^3.1.2",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-permissions": "^2.2.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "^2.11.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-use": "^15.3.4",
+    "rxjs": "^6.6.3",
+    "victory-native": "^35.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.15.0",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.13.1"
+  }
+}

@@ -6,7 +6,7 @@
 
 - 1️⃣ `git clone https://github.com/neurosity/notion-react-native-starter.git`
 - 2️⃣ `cd notion-react-native-starter`
-- 3️⃣ `npm install`
+- 3️⃣ `npm install --legacy-peer-deps`
 - 4️⃣ `npm start`
 - 5️⃣ `npx react-native run-ios (or npx react-native run-android)`
 

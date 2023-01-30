@@ -37,8 +37,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>Usage of Camera is needed to add devices to your account by scanning your device&apos;s QR code</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Usage of Location is needed to find nearby Wi-Fi Networks your device can connect to</string>
 	<key>UIAppFonts</key>

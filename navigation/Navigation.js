@@ -10,6 +10,7 @@ import { LoadingScreen } from "../screens/Loading/LoadingScreen";
 import { useNotion } from "../services/useNotion";
 import { STATE_LOADING } from "../constants/index";
 import colors from "../constants/Colors";
+import linking from "./linking";
 
 const Drawer = createDrawerNavigator();
 
@@ -27,7 +28,7 @@ export function Navigation() {
   }
 
   return (
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
       {user ? <DrawerNavigator component={MainStack} /> : <AuthStack />}
     </NavigationContainer>
   );

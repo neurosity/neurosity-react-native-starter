@@ -15,7 +15,7 @@ import {
     NEUROSITY_OAUTH_CLIENT_SECRET
 } from "../../constants/Env";
 
-import { getState, getScopes } from "./modal"
+import { getState, getScopes } from "./model"
 import { useRoute } from "@react-navigation/native";
 
 
